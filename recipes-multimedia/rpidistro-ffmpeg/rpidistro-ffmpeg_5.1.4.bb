@@ -44,6 +44,7 @@ PACKAGECONFIG ??= "avdevice avfilter avcodec avformat swresample swscale postpro
 SRC_URI = "\
     git://git@github.com/RPi-Distro/ffmpeg;protocol=https;branch=pios/bookworm \
     file://0001-ffmpeg-5.1.4-rpi_24.patch \
+    file://0001-compile-with-new-binutils-for-arm.patch \
     file://2001-configure-setup-for-OE-core-usage.patch \
     file://2004-libavcodec-omx-replace-opt-vc-path-with-usr-lib.patch \
     "
